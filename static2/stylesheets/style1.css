@@ -1,0 +1,43 @@
+*{
+    margin :0px;
+    padding:0px;
+    }
+    .topheader{
+        height : 10vh;
+        background-color: grey;
+        color: white;
+        padding:5px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+        
+    }
+
+.buttons{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.image img{
+    height: 500px;
+    width:  100%;
+
+}
+
+    .header{
+        height:90vh;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+    }
+
+.header b{
+    font-size: 70px;
+}
+.button{
+    padding:10px 20px;
+    font-size: 16px;
+
+}

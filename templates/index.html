@@ -1,0 +1,26 @@
+{%load static%}
+<html>
+    <head>
+        <title> This is Homepage </title>
+        <link rel="stylesheet"  href="{% static "stylesheets/style1.css" %}"/>
+    </head>
+
+    <body style="width:90vw; margin:auto;">
+        <div class="topheader">
+                <div style="width:80vw;font-size:24px">Resume Builder </div>
+                <div style="width:20vw;" class="buttons">   <a href="/login"> <button type="button" class="button">Login </button></a> <a href="/signin"> <button type="button" class="button">Signin</button></a>   </div>
+
+        </div>   
+
+
+        <div class="header">  
+            <div style="width:60vw;">
+                <b>Stand out with a </b> </br> </br> </br>
+                <b>professionally designed</b> </br> </br> </br>
+                <b>resume. </b> </br> </br> </br>
+                <a href ="/newresume"><button type="button" class="button">Get Started </button> </a> </div>
+            <div style="width:40vw;"class="image"> <img src="{%static "images/resume2.jpg"%}"           </div>
+         </div>
+        
+    </body>
+</html>
